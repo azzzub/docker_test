@@ -1,6 +1,6 @@
 FROM node:current-slim
 
-WORKDIR /app
+WORKDIR /usr/src/app/docker_test
 
 COPY package.json .
 

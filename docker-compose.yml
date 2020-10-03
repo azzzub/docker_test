@@ -4,7 +4,7 @@ services:
   web:
     build: .
     volumes:
-      - .:/app
-      - /app/node_modules
+      - .:/usr/src/app/docker_test
+      - /usr/src/app/docker_test/node_modules
     ports:
       - 80:5000
